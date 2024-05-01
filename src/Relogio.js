@@ -20,7 +20,6 @@ function Relogio() {
     <div>
       <h4>Hora atual:</h4>
       <p>{hora}</p>
-      <h5>Maria Clara Brum</h5>
     </div>
     
   );
