@@ -9,7 +9,7 @@ const AnimatedText = () => {
   React.useEffect(() => {
     let currentIndex = 0;
     const interval = setInterval(() => {
-      if (currentIndex < originalText.length) {
+      if (currentIndex < originalText.length - 1) {
         setText(prevText => prevText + originalText[currentIndex]);
         currentIndex++;
       } else {
@@ -31,7 +31,6 @@ const App = () => {
     </div>
   );
 };
-
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
