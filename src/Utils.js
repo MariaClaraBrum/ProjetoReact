@@ -22,7 +22,7 @@ export const people = [{
     name: 'Mohammad Abdus Salam',
     profession: 'physicist',
     accomplishment: 'electromagnetism theory',
-    imageId: 'bE7Wji'
+    imageId: 'bE7W1ji'
 },{
     id: 3,
     name: 'Percy Lavon Julian',
