@@ -1,0 +1,36 @@
+.App {
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  button {
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
